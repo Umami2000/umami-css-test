@@ -1,4 +1,8 @@
 @font-face {
   font-family: 'UmamiSans';
-  src: url('./umami-sans.ttf') format('truetype');
+  src: url('https://umami2000.github.io/umami-css-test/umami-sans.ttf') format('truetype');
+}
+
+#aleno-widget {
+  font-family: 'UmamiSans', sans-serif;
 }
