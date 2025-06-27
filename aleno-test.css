@@ -1,8 +1,67 @@
+/* Schrift einbinden */
 @font-face {
   font-family: 'UmamiSans';
   src: url('https://umami2000.github.io/umami-css-test/umami-sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Gesamtes Widget */
 #aleno-widget {
   font-family: 'UmamiSans', sans-serif;
+  background-color: #fdfcf9;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Überschriften */
+#aleno-widget h1,
+#aleno-widget h2,
+#aleno-widget h3 {
+  color: #4b7f52;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Eingabefelder */
+#aleno-widget input,
+#aleno-widget select,
+#aleno-widget textarea {
+  font-family: 'UmamiSans', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Button */
+#aleno-widget button {
+  background: linear-gradient(90deg, #4b7f52, #3a6240);
+  color: white !important;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#aleno-widget button:hover {
+  background: linear-gradient(90deg, #3a6240, #4b7f52);
+  transform: translateY(-2px);
+}
+
+/* Links */
+#aleno-widget a {
+  color: #4b7f52;
+  text-decoration: none;
+}
+#aleno-widget a:hover {
+  text-decoration: underline;
 }
